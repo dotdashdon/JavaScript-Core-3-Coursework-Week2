@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(159, 196, 112);
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow:hidden;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+.container {
+display: flex;
+justify-content: center;
+}
+
+.img-container{
+display: flex;
+justify-content: center;
+}
+
+img {
+    max-width: auto;
+    height:auto;
+}
